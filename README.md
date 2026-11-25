@@ -19,16 +19,25 @@ Shared files: `css/style.css` and `js/main.js` (mobile menu, footer year, quote 
 
 All text, phone numbers, address, ABN, licence (EC 8485) and the two testimonials (Rob Weber, John Burnett) come from their current site. Nothing was invented: no prices, awards or opening hours (the old site only says "during office hours", so that's what the mockup says too).
 
-## What changed vs. the old site (sales pitch points)
+## What changed vs. the old site (sales pitch points, rechecked 24 Nov 2026)
 
-- **Works on phones.** The old site is a 2016 desktop layout. The new one is fully responsive, with a hamburger menu, large tap targets, and a **sticky "Call 0421 482 284 / Free quote" bar** at the bottom of every page on mobile.
+**Lead status: not interested (called 24 Nov 2026).**
+
+- **Easier to call on a phone.** The old site does work on phones. Its only tap-to-call link is the office number at the top, which scrolls away, and the "Call us now" button opens the Contact page instead of calling. The new one has a **sticky "Call 0421 482 284 / Free quote" bar** at the bottom of every page on mobile.
 - **Tap-to-call everywhere.** Mobile and office numbers are clickable on every page (header, hero, sidebar, footer).
-- **Modern, clean look in their own brand colours.** It keeps their logo yellow (#F6EB13), sky blue (#00AEEF) and charcoal, but drops the old carousel banners that had the phone number baked into the image (unreadable on a phone, and invisible to Google).
+- **Modern, clean look in their own brand colours.** It keeps their logo yellow (#F6EB13), sky blue (#00AEEF) and charcoal, but drops the old carousel banners.
 - **Clearer structure.** The seven near-identical "Electrician Rockingham / Baldivis / Kwinana..." pages are merged into one tidy **Areas** page, and a dedicated **quote request form** replaces the plain contact list.
 - **Trust signals up front.** Licence EC 8485, "fully licensed & insured", free no-obligation quotes and the director photo are visible straight away instead of buried.
-- **Fixes the old site's problems:** © 2016 footer (now shows the current year automatically), typos ("Electrcial", "thanks goodness", "good understanding or local legislation"), and the site is ready to go on **HTTPS** (the old one shows "Not secure" in the browser).
+- **Fixes the old site's problems:** © 2016 footer (now shows the current year automatically), typos ("Electrcial", "thanks goodness", "good understanding or local legislation"). The old site answers on https, but typing the http address doesn't switch to it.
 - **Dark mode and smooth motion.** Follows the phone or computer's light/dark setting, with a sun/moon toggle in the header that remembers the visitor's choice. Sections and cards fade up as you scroll, the header blurs and gets a shadow once you scroll, hovers and the mobile menu animate smoothly, images zoom slightly on hover, and there's a back-to-top button and clear keyboard focus outlines. All motion turns off for visitors who set "reduce motion".
 - **Faster.** No WordPress, jQuery or slider plugins. Images were resized and compressed (the director photo went from 1.9 MB to 86 KB).
+
+### Don't say
+
+- "It doesn't work on phones." It does, with a proper phone menu.
+- "Customers can't tap your number." The office number can be tapped.
+- "Your site isn't secure." https works.
+- "Your WordPress is out of date." It reports version 7.1.5.
 
 ## Images
 
